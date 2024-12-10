@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 
-API_KEY = "AIzaSyAp1cHMsE-8XZaIGcqAXS7rqctUe1UZmCo"
+API_KEY = "Youtube_API_KEY"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def get_video_captions(video_id):
